@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,11 @@
 </head>
 <body>
     <?php
-        $nome = "John Smith";
-        $idade = "57";
-        echo "<h1>Meu nome é $nome e tenho $idade anos</h1>"
+        $array = [23, 34, 12, 56, 99, 41, 56, 87];
+        sort($array);
+        echo "$array[7]";
     ?>
+    <button type="button" onclick="javascript:history.back();">Voltar</button>
+
 </body>
 </html>
