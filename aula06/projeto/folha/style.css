@@ -18,8 +18,8 @@ table.listagem tr {
     height: 50px;
 }
 table.listagem td {
-    /*border: 1px solid #ddd;*/
     padding: 10px;
+    /*border: 1px solid #ccc;*/
 }
 table.listagem tr:nth-child(even) {
     background-color: #f2f2f2;
@@ -30,14 +30,7 @@ table.listagem td:nth-child(1) {
 table.listagem td:nth-child(3) {
     width: 90px;
 }
-table.detalhes {
-    width: 100%;
-}
-table.detalhes td {
-    padding: 10px;
-    vertical-align: top;
-}
-    img.mini {
+img.mini {
     height: 60px;
 }
 img.full {
