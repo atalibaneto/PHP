@@ -7,9 +7,13 @@
     <title>Listagem de Jogos</title>
 </head>
 <body>
-    <?php require_once "includes/banco.php"; ?>
-    <?php require_once "includes/funcoes.php"; ?>
+    <?php
+    require_once "includes/banco.php";
+    require_once "includes/login.php";
+    require_once "includes/funcoes.php";
+    ?>
     <div id="corpo">
+        <?php include "cabecalho.php"; ?>
         <h1>Escolha seu Jogo</h1>
         <table class="listagem">
         <?php
@@ -26,5 +30,6 @@
         ?>
         </table>
     </div>
+    <?php include "rodape.php";?>
 </body>
 </html>
